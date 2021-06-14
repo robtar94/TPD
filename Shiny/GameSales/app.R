@@ -1,7 +1,23 @@
-library(shiny)
+games <- read.csv("Dataset/Video_Games.csv")
 
 ui <- fluidPage(
   
+  titlePanel("Tabsets"),
+  
+  sidebarLayout(
+    
+    sidebarPanel(
+      # Inputs excluded for brevity
+    ),
+    
+    mainPanel(
+      tabsetPanel(
+        tabPanel("Plot", plotOutput("plot")), 
+        tabPanel("Summary", verbatimTextOutput("summary")), 
+        tabPanel("Table", tableOutput("table"))
+      )
+    )
+  )
 )
 
 server <- function(input, output, session) {
