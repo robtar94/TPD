@@ -1,0 +1,14 @@
+name: GameSales_TPD
+title: GameSales_TPD
+username:
+account: robtar94
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4285806
+bundleId: 4728407
+url: https://robtar94.shinyapps.io/GameSales_TPD/
+when: 1623958313.48905
+lastSyncTime: 1623958313.48905
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: ~$podglad.xlsx|podglad.xlsx
