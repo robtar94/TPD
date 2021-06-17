@@ -1,2 +1,1 @@
-# TPD
-TPD (Shiny &amp; Tableau)
+Aplikacja Zaliczeniowa z R Shiny (TPD)
